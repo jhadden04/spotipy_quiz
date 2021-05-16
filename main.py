@@ -3,11 +3,11 @@ from spotipy.oauth2 import SpotifyClientCredentials
 import os
 import random
 
-os.environ["SPOTIPY_CLIENT_ID"] = '04e9593b8574411ea1640433ea464fb'
-os.environ["SPOTIPY_CLIENT_SECRET"] = 'dd80d98d0c9845a6bef36bc4d10c30a'
+os.environ["SPOTIPY_CLIENT_ID"] = '*'
+os.environ["SPOTIPY_CLIENT_SECRET"] = '*'
 os.environ["SPOTIPY_REDIRECT_URI"] = 'http://localhost:8080'
-username = "bytmjoltm7yu5hq50um4ik6s"
-device_id = 'b0a12c11905ae21baa4400d765bbca53a6df2e0'
+username = "*"
+device_id = '*'
 spotify = spotipy.Spotify(client_credentials_manager=SpotifyClientCredentials())
 
 
